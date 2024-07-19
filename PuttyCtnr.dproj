@@ -4,7 +4,7 @@
         <MainSource>PuttyCtnr.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Release</Config>
-        <TargetedPlatforms>1</TargetedPlatforms>
+        <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Application</AppType>
         <FrameworkType>VCL</FrameworkType>
         <ProjectVersion>19.5</ProjectVersion>
@@ -106,9 +106,14 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Icon_MainIcon>PuttyCtnr_Icon.ico</Icon_MainIcon>
+        <BT_BuildType>Debug</BT_BuildType>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <Icon_MainIcon>PuttyCtnr_Icon1.ico</Icon_MainIcon>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
@@ -127,6 +132,10 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <Icon_MainIcon>PuttyCtnr_Icon.ico</Icon_MainIcon>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
@@ -185,6 +194,7 @@
                 </Source>
                 <Language>
                     <Language Name="ProjectLang">$00000412</Language>
+                    <Language Name="ActiveLang">KOR</Language>
                 </Language>
                 <VersionInfo>
                     <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
@@ -217,10 +227,24 @@
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k280.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp280.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
                 </Excluded_Packages>
+                <Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item0">영어(영국)*$00000809*ENG*ENG</Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item1">한국어(대한민국)*$00000412*KOR*KOR</Resource_DLL_Projects>
+                </Resource_DLL_Projects>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">Form\MainForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">Form\AboutForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">Form\ConnectionForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">Form\ChildForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">Form\MingwForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">Form\PasswordForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">Form\SyncKeyForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">PuttyCtnr.drc</RDP_Source_Files>
+                </RDP_Source_Files>
             </Delphi.Personality>
             <Platforms>
                 <Platform value="Win32">True</Platform>
-                <Platform value="Win64">False</Platform>
+                <Platform value="Win64">True</Platform>
             </Platforms>
             <Deployment Version="4">
                 <DeployFile LocalName="PuttyCtnr.exe" Configuration="Debug" Class="ProjectOutput">

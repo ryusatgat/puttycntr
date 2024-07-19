@@ -1,36 +1,60 @@
-﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-		<PropertyGroup>
-			<ProjectGuid>{AE9DD6F5-DA84-4A99-B363-8EBBD872CA73}</ProjectGuid>
-		</PropertyGroup>
-		<ItemGroup>
-			<Projects Include="PuttyCtnr.dproj">
-				<Dependencies/>
-			</Projects>
-		</ItemGroup>
-		<ProjectExtensions>
-			<Borland.Personality>Default.Personality.12</Borland.Personality>
-			<Borland.ProjectType/>
-			<BorlandProject>
-				<Default.Personality/>
-			</BorlandProject>
-		</ProjectExtensions>
-		<Target Name="PuttyCtnr">
-			<MSBuild Projects="PuttyCtnr.dproj"/>
-		</Target>
-		<Target Name="PuttyCtnr:Clean">
-			<MSBuild Projects="PuttyCtnr.dproj" Targets="Clean"/>
-		</Target>
-		<Target Name="PuttyCtnr:Make">
-			<MSBuild Projects="PuttyCtnr.dproj" Targets="Make"/>
-		</Target>
-		<Target Name="Build">
-			<CallTarget Targets="PuttyCtnr"/>
-		</Target>
-		<Target Name="Clean">
-			<CallTarget Targets="PuttyCtnr:Clean"/>
-		</Target>
-		<Target Name="Make">
-			<CallTarget Targets="PuttyCtnr:Make"/>
-		</Target>
-		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
-	</Project>
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9B14B6E7-38D4-44FE-BAA9-5E3DFA29C342}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PuttyCtnr.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ENG\PuttyCtnr_ENG.bdsproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KOR\PuttyCtnr_KOR.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PuttyCtnr">
+        <MSBuild Projects="PuttyCtnr.dproj"/>
+    </Target>
+    <Target Name="PuttyCtnr:Clean">
+        <MSBuild Projects="PuttyCtnr.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PuttyCtnr:Make">
+        <MSBuild Projects="PuttyCtnr.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PuttyCtnr_ENG">
+        <MSBuild Projects="ENG\PuttyCtnr_ENG.bdsproj"/>
+    </Target>
+    <Target Name="PuttyCtnr_ENG:Clean">
+        <MSBuild Projects="ENG\PuttyCtnr_ENG.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PuttyCtnr_ENG:Make">
+        <MSBuild Projects="ENG\PuttyCtnr_ENG.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="PuttyCtnr_KOR">
+        <MSBuild Projects="KOR\PuttyCtnr_KOR.bdsproj"/>
+    </Target>
+    <Target Name="PuttyCtnr_KOR:Clean">
+        <MSBuild Projects="KOR\PuttyCtnr_KOR.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PuttyCtnr_KOR:Make">
+        <MSBuild Projects="KOR\PuttyCtnr_KOR.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PuttyCtnr;PuttyCtnr_ENG;PuttyCtnr_KOR"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PuttyCtnr:Clean;PuttyCtnr_ENG:Clean;PuttyCtnr_KOR:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PuttyCtnr:Make;PuttyCtnr_ENG:Make;PuttyCtnr_KOR:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

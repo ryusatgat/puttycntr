@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">W32ResourceDLL.Personality</Option>
+			<Option Name="ProjectType">ResourceDLL</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{D42C8111-3290-494F-9F96-412A88F24E58}</Option>
+		</Option>
+	</PersonalityInfo>
+	<W32ResourceDLL.Personality>
+		<Source>
+			<Source Name="MainSource">PuttyCtnr.dpr</Source>
+		</Source>
+		<Options>
+			<Options Name="BaseLang">1042</Options>
+			<Options Name="TargetName">..\PuttyCtnr.KOR</Options>
+			<Options Name="BRCC_IncludePath"></Options>
+			<Options Name="Company"></Options>
+			<Options Name="Configuration"></Options>
+			<Options Name="Copyright"></Options>
+			<Options Name="Description"></Options>
+			<Options Name="Trademark"></Options>
+			<Options Name="Product"></Options>
+			<Options Name="ProductVersion"></Options>
+			<Options Name="Title"></Options>
+			<Options Name="FileVersion"></Options>
+			<Options Name="Evidence"></Options>
+			<Options Name="KeyFile"></Options>
+			<Options Name="KeyName"></Options>
+		</Options>
+		<FileList><File FileName="Form\AboutForm.dfm" ContainerId="W32Form" ModuleName="AboutForm.dfm"/><File FileName="Form\ChildForm.dfm" ContainerId="W32Form" ModuleName="ChildForm.dfm"/><File FileName="Form\ConnectionForm.dfm" ContainerId="W32Form" ModuleName="ConnectionForm.dfm"/><File FileName="Form\MainForm.dfm" ContainerId="W32Form" ModuleName="MainForm.dfm"/><File FileName="Form\MingwForm.dfm" ContainerId="W32Form" ModuleName="MingwForm.dfm"/><File FileName="Form\PasswordForm.dfm" ContainerId="W32Form" ModuleName="PasswordForm.dfm"/><File FileName="Form\SyncKeyForm.dfm" ContainerId="W32Form" ModuleName="SyncKeyForm.dfm"/><File FileName="PuttyCtnr_DRC.rc" ContainerId="W32RC" ModuleName="PuttyCtnr_DRC.rc"/></FileList></W32ResourceDLL.Personality>
+</BorlandProject>
