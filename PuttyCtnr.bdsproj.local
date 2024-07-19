@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009-11-02 14:02:36.082.pas,C:\Documents and Settings\류신\My Documents\Borland Studio Projects\Unit1.pas=D:\Projects\Delphi\PuttyTab\Form\MainForm.pas</Transaction>
+    <Transaction>2009-11-02 14:02:36.082.dfm,C:\Documents and Settings\류신\My Documents\Borland Studio Projects\Unit1.dfm=D:\Projects\Delphi\PuttyTab\Form\MainForm.dfm</Transaction>
+    <Transaction>2009-11-02 14:03:42.957.bdsproj,C:\Documents and Settings\류신\My Documents\Borland Studio Projects\Project1.bdsproj=D:\Projects\Delphi\PuttyTab\PuttyTab.bdsproj</Transaction>
+    <Transaction>2009-11-02 17:45:37.785.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\RsCommon.pas</Transaction>
+    <Transaction>2009-11-05 08:25:30.448.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\ConnectionList.pas</Transaction>
+    <Transaction>2009-11-05 13:22:00.235.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\TermThread.pas</Transaction>
+    <Transaction>2009-11-05 20:39:37.620.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Form\ConnectionForm.pas</Transaction>
+    <Transaction>2009-11-05 20:39:37.620.dfm,D:\Projects\Delphi\PuttyTab\Unit1.dfm=D:\Projects\Delphi\PuttyTab\Form\ConnectionForm.dfm</Transaction>
+    <Transaction>2009-11-06 16:30:40.871.bdsproj,D:\Projects\Delphi\PuttyTab\PuttyTab.bdsproj=D:\Projects\Delphi\PuttyTab\PuttyContainer.bdsproj</Transaction>
+    <Transaction>2009-11-06 16:39:23.963.bdsproj,D:\Projects\Delphi\PuttyTab\PuttyContainer.bdsproj=D:\Projects\Delphi\PuttyTab\PuttyCtnr.bdsproj</Transaction>
+    <Transaction>2009-11-11 18:32:20.824.pas,Z:\PuttyTab\Component\AeroGlass\AeroGlass.pas=</Transaction>
+    <Transaction>2009-11-17 09:59:12.337.pas,Z:\PuttyTab\Unit1.pas=Z:\PuttyTab\Form\SyncForm.pas</Transaction>
+    <Transaction>2009-11-17 09:59:12.337.dfm,Z:\PuttyTab\Unit1.dfm=Z:\PuttyTab\Form\SyncForm.dfm</Transaction>
+    <Transaction>2009-11-17 18:34:21.477.pas,Z:\PuttyTab\Unit1.pas=Z:\PuttyTab\Form\ExitForm.pas</Transaction>
+    <Transaction>2009-11-17 18:34:21.524.dfm,Z:\PuttyTab\Unit1.dfm=Z:\PuttyTab\Form\ExitForm.dfm</Transaction>
+    <Transaction>2010-01-12 14:16:59.742.pas,E:\Projects\Delphi\PuttyTab\Unit1.pas=E:\Projects\Delphi\PuttyTab\Form\ChildForm.pas</Transaction>
+    <Transaction>2010-01-12 14:16:59.742.dfm,E:\Projects\Delphi\PuttyTab\Unit1.dfm=E:\Projects\Delphi\PuttyTab\Form\ChildForm.dfm</Transaction>
+    <Transaction>2011-12-12 14:19:03.648.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\InputPannel.pas</Transaction>
+    <Transaction>2011-12-12 14:19:59.148.pas,D:\Projects\Delphi\PuttyTab\Lib\InputPannel.pas=D:\Projects\Delphi\PuttyTab\Lib\InputPanel.pas</Transaction>
+    <Transaction>2011-12-12 16:49:39.757.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\RawInput.pas</Transaction>
+    <Transaction>2011-12-12 16:53:40.050.pas,D:\Projects\Delphi\PuttyTab\Lib\RawInput.pas=D:\Projects\Delphi\PuttyTab\Lib\RsRawInput.pas</Transaction>
+    <Transaction>2011-12-22 17:12:29.454.pas,D:\Projects\Delphi\PuttyTab\Form\ExitForm.pas=</Transaction>
+    <Transaction>2011-12-22 17:12:29.469.dfm,D:\Projects\Delphi\PuttyTab\Form\ExitForm.dfm=</Transaction>
+    <Transaction>2011-12-22 18:47:55.840.pas,D:\Projects\Delphi\PuttyTab\Form\SyncForm.pas=</Transaction>
+    <Transaction>2011-12-22 18:47:55.871.dfm,D:\Projects\Delphi\PuttyTab\Form\SyncForm.dfm=</Transaction>
+    <Transaction>2012-01-12 11:57:45.771.pas,D:\Projects\Delphi\PuttyTab\Lib\ConnectionList.pas=</Transaction>
+    <Transaction>2012-03-30 17:05:42.911.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Form\MingwForm.pas</Transaction>
+    <Transaction>2012-03-30 17:05:42.942.dfm,D:\Projects\Delphi\PuttyTab\Unit1.dfm=D:\Projects\Delphi\PuttyTab\Form\MingwForm.dfm</Transaction>
+    <Transaction>2012-04-04 14:42:47.823.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Form\PasswordForm.pas</Transaction>
+    <Transaction>2012-04-04 14:42:47.823.dfm,D:\Projects\Delphi\PuttyTab\Unit1.dfm=D:\Projects\Delphi\PuttyTab\Form\PasswordForm.dfm</Transaction>
+    <Transaction>2012-04-11 11:04:04.006.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Lib\NTLogon.pas</Transaction>
+    <Transaction>2012-08-29 09:00:57.589.pas,D:\Projects\Delphi\PuttyTab\Unit1.pas=D:\Projects\Delphi\PuttyTab\Form\ConjoinHostForm.pas</Transaction>
+    <Transaction>2012-08-29 09:00:57.605.dfm,D:\Projects\Delphi\PuttyTab\Unit1.dfm=D:\Projects\Delphi\PuttyTab\Form\ConjoinHostForm.dfm</Transaction>
+    <Transaction>2012-08-29 16:13:39.542.pas,D:\Projects\Delphi\PuttyTab\Form\ConjoinHostForm.pas=</Transaction>
+    <Transaction>2012-08-29 16:13:39.542.dfm,D:\Projects\Delphi\PuttyTab\Form\ConjoinHostForm.dfm=</Transaction>
+    <Transaction>2012-08-29 16:13:42.151.pas,D:\Projects\Delphi\PuttyTab\Form\TabDocHostForm.pas=</Transaction>
+    <Transaction>2012-08-29 16:13:42.151.dfm,D:\Projects\Delphi\PuttyTab\Form\TabDocHostForm.dfm=</Transaction>
+    <Transaction>2012-08-29 16:13:44.605.pas,D:\Projects\Delphi\PuttyTab\Lib\DockingUtils.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
