@@ -3,7 +3,7 @@
         <ProjectGuid>{BC4F8C73-1D4A-4125-9EB7-C3AC0B0BF884}</ProjectGuid>
         <MainSource>PuttyCtnr.dpr</MainSource>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Config Condition="'$(Config)'==''">Release</Config>
         <TargetedPlatforms>1</TargetedPlatforms>
         <AppType>Application</AppType>
         <FrameworkType>VCL</FrameworkType>
@@ -114,6 +114,10 @@
         <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
         <DCC_Optimize>false</DCC_Optimize>
         <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+        <DCC_AssertionsAtRuntime>true</DCC_AssertionsAtRuntime>
+        <DCC_LocalDebugSymbols>true</DCC_LocalDebugSymbols>
+        <DCC_DebugDCUs>true</DCC_DebugDCUs>
+        <DCC_DebugInformation>2</DCC_DebugInformation>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <BT_BuildType>Debug</BT_BuildType>
@@ -159,14 +163,6 @@
         <DCCReference Include="Form\SyncKeyForm.pas">
             <Form>FormSyncKey</Form>
         </DCCReference>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabs.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsClasses.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsControls.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsGlassForm.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsLog.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsThreadTimer.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsTypes.pas"/>
-        <DCCReference Include="Component\TChromeTabs\Lib\ChromeTabsUtils.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

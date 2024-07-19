@@ -20,15 +20,7 @@ uses
   GDIPOBJ in 'Component\SmartTabs21\GDIPOBJ.pas',
   GDIPUTIL in 'Component\SmartTabs21\GDIPUTIL.pas',
   rkSmartTabs in 'Component\SmartTabs21\rkSmartTabs.pas',
-  SyncKeyForm in 'Form\SyncKeyForm.pas' {FormSyncKey},
-  ChromeTabs in 'Component\TChromeTabs\Lib\ChromeTabs.pas',
-  ChromeTabsClasses in 'Component\TChromeTabs\Lib\ChromeTabsClasses.pas',
-  ChromeTabsControls in 'Component\TChromeTabs\Lib\ChromeTabsControls.pas',
-  ChromeTabsGlassForm in 'Component\TChromeTabs\Lib\ChromeTabsGlassForm.pas',
-  ChromeTabsLog in 'Component\TChromeTabs\Lib\ChromeTabsLog.pas',
-  ChromeTabsThreadTimer in 'Component\TChromeTabs\Lib\ChromeTabsThreadTimer.pas',
-  ChromeTabsTypes in 'Component\TChromeTabs\Lib\ChromeTabsTypes.pas',
-  ChromeTabsUtils in 'Component\TChromeTabs\Lib\ChromeTabsUtils.pas';
+  SyncKeyForm in 'Form\SyncKeyForm.pas' {FormSyncKey};
 
 {$R *.res}
 
