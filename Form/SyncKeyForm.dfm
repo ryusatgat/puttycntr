@@ -3,7 +3,7 @@ object FormSyncKey: TFormSyncKey
   Top = 0
   AlphaBlendValue = 127
   BorderIcons = [biSystemMenu]
-  Caption = 'PuTTY '#45796#51473#54868#47732' '#53412' '#46041#49884#51077#47141
+  Caption = 'PuTTY multi-screen key input simultaneously'
   ClientHeight = 219
   ClientWidth = 332
   Color = clBtnFace
@@ -12,18 +12,16 @@ object FormSyncKey: TFormSyncKey
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   DesignSize = (
     332
     219)
-  PixelsPerInch = 96
   TextHeight = 13
   object sbPaste: TSpeedButton
-    Left = 292
+    Left = 288
     Top = 156
     Width = 22
     Height = 22
-    Hint = #53364#47549#48372#46300#51032' '#45236#50857#51012' '#50668#47084' '#54868#47732#50640' '#48537#50668#45347#44592' '#54616#47140#47732' '#45572#47476#49464#50836
+    Hint = 'Press to paste the contents of the clipboard to multiple screens'
     Anchors = [akRight, akBottom]
     Glyph.Data = {
       36030000424D3603000000000000360000002800000010000000100000000100
@@ -60,50 +58,55 @@ object FormSyncKey: TFormSyncKey
   object Label1: TLabel
     Left = 18
     Top = 16
-    Width = 142
+    Width = 182
     Height = 13
-    Caption = #46041#49884#50640' '#51077#47141#54624' '#54868#47732' '#47785#47197'(&L)'
+    Caption = '&List of screens to input simultaneously'
   end
   object Label2: TLabel
-    Left = 29
+    Left = 9
     Top = 159
-    Width = 63
+    Width = 88
     Height = 13
+    Alignment = taRightJustify
     Anchors = [akLeft, akBottom]
-    Caption = #51204#49569#47928#51088'(&C)'
+    Caption = '&Character to Send'
     FocusControl = edChar
   end
   object Label3: TLabel
-    Left = 18
+    Left = 29
     Top = 186
-    Width = 74
+    Width = 68
     Height = 13
+    Alignment = taRightJustify
     Anchors = [akLeft, akBottom]
-    Caption = #51204#49569#47928#51088#50676'(&S)'
+    Caption = '&String to Send'
     FocusControl = edString
   end
   object cklList: TCheckListBox
     Left = 18
     Top = 35
-    Width = 296
+    Width = 292
     Height = 110
     Anchors = [akLeft, akTop, akRight, akBottom]
     ImeName = 'Microsoft Office IME 2007'
-    ItemHeight = 13
+    ItemHeight = 17
     Items.Strings = (
       'a'
       'b'
       'c'
       'd')
     TabOrder = 2
-    ExplicitWidth = 255
+    ExplicitWidth = 288
+    ExplicitHeight = 109
   end
   object edChar: TEdit
     Left = 104
     Top = 156
-    Width = 182
+    Width = 178
     Height = 21
-    Hint = #53412#48372#46300#50640#49436' '#53412#47484' '#45572#47476#45716' '#51593#49884' '#51077#47141#46121#45768#45796'. '#54620#44544' '#46321#51032' '#51312#47549#47928#51088#45716' '#47924#49884#46121#45768#45796'.'
+    Hint = 
+      'Input occurs as soon as you press a key on the keyboard. Assembl' +
+      'ed characters such as Uncode characters are ignored.'
     Anchors = [akLeft, akRight, akBottom]
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clMedGray
@@ -116,15 +119,19 @@ object FormSyncKey: TFormSyncKey
     ReadOnly = True
     ShowHint = True
     TabOrder = 0
-    Text = #51060#44275#50640#49436' '#53412#47484' '#51077#47141#54616#49901#49884#50724
+    Text = 'Input keys here'
     OnKeyPress = edCharKeyPress
+    ExplicitTop = 155
+    ExplicitWidth = 174
   end
   object edString: TEdit
     Left = 104
     Top = 183
-    Width = 210
+    Width = 178
     Height = 21
-    Hint = #53364#47549#48372#46300#47196' '#51204#49569' '#47928#51088#50676#51012' '#48373#49324' '#54980'  '#48537#50668#45347#44592' '#54633#45768#45796'. '#54620#44544#46020' '#51077#47141' '#44032#45733#54633#45768#45796'.'
+    Hint = 
+      'Copy and paste the transmission string to the clipboard. Unicode' +
+      ' characters can also be entered.'
     Anchors = [akLeft, akRight, akBottom]
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -138,14 +145,28 @@ object FormSyncKey: TFormSyncKey
     ShowHint = True
     TabOrder = 1
     OnKeyPress = edStringKeyPress
+    ExplicitTop = 182
+    ExplicitWidth = 174
   end
   object ckTransparant: TCheckBox
     Left = 240
     Top = 15
     Width = 74
     Height = 17
-    Caption = #48152#53804#47749'(&T)'
+    Caption = '&Transparent'
     TabOrder = 3
+    OnClick = ckTransparantClick
+  end
+  object ckNewLine: TCheckBox
+    Left = 288
+    Top = 185
+    Width = 74
+    Height = 17
+    Hint = 'Add line feed at end of the string'
+    Caption = '&LF'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
     OnClick = ckTransparantClick
   end
 end

@@ -2,7 +2,7 @@ object FormConnection: TFormConnection
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu]
-  Caption = 'PuTTY '#51217#49549' '#44288#47532
+  Caption = 'PuTTY Connection Manager'
   ClientHeight = 377
   ClientWidth = 487
   Color = clBtnFace
@@ -23,12 +23,12 @@ object FormConnection: TFormConnection
   object Label2: TLabel
     Left = 22
     Top = 17
-    Width = 47
+    Width = 41
     Height = 13
-    Caption = #49464#49496' '#47785#47197
+    Caption = 'Sessions'
   end
   object sbUp: TSpeedButton
-    Left = 225
+    Left = 209
     Top = 12
     Width = 20
     Height = 20
@@ -73,7 +73,7 @@ object FormConnection: TFormConnection
     ExplicitLeft = 229
   end
   object sbDown: TSpeedButton
-    Left = 246
+    Left = 230
     Top = 12
     Width = 20
     Height = 20
@@ -118,56 +118,56 @@ object FormConnection: TFormConnection
     ExplicitLeft = 250
   end
   object pgInfo: TPageControl
-    Left = 272
+    Left = 256
     Top = 16
     Width = 192
     Height = 309
-    ActivePage = tsConnection
+    ActivePage = tsEtc
     Anchors = [akTop, akRight, akBottom]
     TabOrder = 2
-    ExplicitLeft = 268
+    ExplicitLeft = 252
     ExplicitHeight = 308
     object tsConnection: TTabSheet
-      Caption = #50672#44208#51221#48372
+      Caption = 'Connections'
       object Label1: TLabel
-        Left = 13
+        Left = 18
         Top = 43
-        Width = 44
+        Width = 39
         Height = 13
         Alignment = taRightJustify
-        Caption = #54532#47196#53664#53084
+        Caption = 'Protocol'
       end
       object lbHost: TLabel
-        Left = 13
+        Left = 18
         Top = 74
-        Width = 44
+        Width = 39
         Height = 13
         Alignment = taRightJustify
-        Caption = #51217#49549#51452#49548
+        Caption = 'Address'
       end
       object lbPort: TLabel
-        Left = 35
+        Left = 37
         Top = 105
+        Width = 20
+        Height = 13
+        Alignment = taRightJustify
+        Caption = 'Port'
+      end
+      object Label5: TLabel
+        Left = 35
+        Top = 150
         Width = 22
         Height = 13
         Alignment = taRightJustify
-        Caption = #54252#53944
-      end
-      object Label5: TLabel
-        Left = 13
-        Top = 150
-        Width = 44
-        Height = 13
-        Alignment = taRightJustify
-        Caption = #49324#50857#51088#47749
+        Caption = 'User'
       end
       object Label6: TLabel
-        Left = 13
+        Left = 11
         Top = 179
-        Width = 44
+        Width = 46
         Height = 13
         Alignment = taRightJustify
-        Caption = #48708#48128#48264#54840
+        Caption = 'Password'
       end
       object Bevel2: TBevel
         Left = 9
@@ -176,12 +176,12 @@ object FormConnection: TFormConnection
         Height = 2
       end
       object Label7: TLabel
-        Left = 24
+        Left = 21
         Top = 13
-        Width = 33
+        Width = 36
         Height = 13
         Alignment = taRightJustify
-        Caption = #49464#49496#47749
+        Caption = 'Session'
       end
       object edHost: TEdit
         Left = 60
@@ -243,7 +243,7 @@ object FormConnection: TFormConnection
         Top = 214
         Width = 89
         Height = 25
-        Caption = #49888#44508' '#49464#49496'(&N)'
+        Caption = '&New Session'
         TabOrder = 6
         OnClick = acNewSessionExecute
       end
@@ -252,7 +252,7 @@ object FormConnection: TFormConnection
         Top = 245
         Width = 75
         Height = 25
-        Caption = #49325#51228'(&D)'
+        Caption = '&Delete'
         TabOrder = 9
         OnClick = acDeleteExecute
       end
@@ -271,7 +271,7 @@ object FormConnection: TFormConnection
         Top = 214
         Width = 75
         Height = 25
-        Caption = #48373#49324'(&P)'
+        Caption = 'Co&py'
         TabOrder = 7
         OnClick = acCopyExecute
       end
@@ -280,27 +280,27 @@ object FormConnection: TFormConnection
         Top = 245
         Width = 89
         Height = 25
-        Caption = #49352' '#54260#45908'(&F)'
+        Caption = 'New &Folder'
         TabOrder = 8
         OnClick = acNewFolderExecute
       end
     end
     object tsOption: TTabSheet
-      Caption = #50741#49496
+      Caption = 'Options'
       ImageIndex = 1
       object Label3: TLabel
         Left = 12
         Top = 252
-        Width = 104
+        Width = 93
         Height = 13
-        Caption = #51060#51204#54868#47732' '#51200#51109' '#51460' '#49688': '
+        Caption = 'Lines of scrollback: '
       end
       object GroupBox1: TGroupBox
         Left = 8
         Top = 6
         Width = 170
         Height = 118
-        Caption = ' '#49353#49345' '#48320#44221' '
+        Caption = ' Change colour '
         TabOrder = 0
         object Label8: TLabel
           Left = 9
@@ -308,7 +308,7 @@ object FormConnection: TFormConnection
           Width = 22
           Height = 13
           Alignment = taRightJustify
-          Caption = #54637#47785
+          Caption = 'Item'
         end
         object Label9: TLabel
           Left = 11
@@ -334,28 +334,28 @@ object FormConnection: TFormConnection
           TabOrder = 0
           OnChange = cbColorChange
           Items.Strings = (
-            #44592#48376' '#44544#51088
-            #44592#48376' '#44544#51088'('#44405#51020')'
-            #44592#48376' '#48176#44221
-            #44592#48376' '#48176#44221'('#44405#51020')'
-            #52964#49436' '#44544#51088
-            #52964#49436' '#48176#44221
-            'ANSI '#44160#51221
-            'ANSI '#44160#51221'('#44405#51020')'
-            'ANSI '#48744#44053
-            'ANSI '#48744#44053'('#44405#51020')'
-            'ANSI '#45433#49353
-            'ANSI '#45433#49353'('#44405#51020')'
-            'ANSI '#45432#46993
-            'ANSI '#45432#46993'('#44405#51020')'
-            'ANSI '#54028#46993
-            'ANSI '#54028#46993'('#44405#51020')'
-            'ANSI '#51088#54861
-            'ANSI '#51088#54861'('#44405#51020')'
-            'ANSI '#52397#47197
-            'ANSI '#52397#47197'('#44405#51020')'
-            'ANSI '#54616#50577
-            'ANSI '#54616#50577'('#44405#51020')')
+            'Default Foreground'
+            'Default Bold Foreground'
+            'Default Background'
+            'Default Bold Background'
+            'Cursor Text'
+            'Cursor Background'
+            'ANSI Black'
+            'ANSI Black Bold'
+            'ANSI Red'
+            'ANSI Red Bold'
+            'ANSI Green'
+            'ANSI Green Bold'
+            'ANSI Yellow'
+            'ANSI Yellow Bold'
+            'ANSI Blue'
+            'ANSI Blue Bold'
+            'ANSI Magenta'
+            'ANSI Magenta Bold'
+            'ANSI Cyan'
+            'ANSI Cyan Bold'
+            'ANSI White'
+            'ANSI White Bold')
         end
         object edR: TEdit
           Left = 36
@@ -389,7 +389,7 @@ object FormConnection: TFormConnection
           Top = 79
           Width = 75
           Height = 25
-          Caption = #49353#49345#54364'(&R)'
+          Caption = 'Modify'
           TabOrder = 4
           OnClick = btColorClick
         end
@@ -399,14 +399,14 @@ object FormConnection: TFormConnection
         Top = 130
         Width = 170
         Height = 106
-        Caption = ' '#44544#44852' '#48320#44221' '
+        Caption = ' Change Font '
         TabOrder = 1
         object btFont: TButton
           Left = 78
           Top = 71
           Width = 75
           Height = 25
-          Caption = #44544#44852'(&F)'
+          Caption = '&Font'
           TabOrder = 0
           OnClick = btFontClick
         end
@@ -415,7 +415,7 @@ object FormConnection: TFormConnection
           Top = 24
           Width = 139
           Height = 41
-          Caption = #44032#45208#45796' abc ABC'
+          Caption = 'abc ABC 123'
           TabOrder = 1
         end
       end
@@ -426,17 +426,18 @@ object FormConnection: TFormConnection
         Height = 21
         ImeName = 'Microsoft Office IME 2007'
         TabOrder = 2
+        Text = '200'
       end
     end
     object tsEtc: TTabSheet
-      Caption = #44592#53440
+      Caption = 'ETC'
       ImageIndex = 2
       object btLoadPutty: TButton
         Left = 7
         Top = 9
         Width = 170
         Height = 25
-        Caption = 'PuTTY '#49464#49496' '#44032#51256#50724#44592'(&L)'
+        Caption = 'Import PuTTY Sessions'
         TabOrder = 0
         OnClick = btLoadPuttyClick
       end
@@ -445,7 +446,7 @@ object FormConnection: TFormConnection
         Top = 39
         Width = 170
         Height = 25
-        Caption = #44592#48376#49444#51221#50640#49436' '#44032#51256#50724#44592'(&A)'
+        Caption = 'Import from Default Settings'
         TabOrder = 1
         OnClick = btLoadDefaultClick
       end
@@ -454,7 +455,7 @@ object FormConnection: TFormConnection
         Top = 70
         Width = 170
         Height = 25
-        Caption = #44592#48376#49444#51221#51004#47196' '#45934#50612#50416#44592'(&W)'
+        Caption = 'Save to Default Settings'
         TabOrder = 2
         OnClick = btSaveDefaultClick
       end
@@ -463,7 +464,7 @@ object FormConnection: TFormConnection
         Top = 101
         Width = 170
         Height = 25
-        Caption = '&PuTTY '#51217#49549#51221#48372' '#45236#48372#45236#44592
+        Caption = 'Export &PuTTY Sessions'
         TabOrder = 3
         OnClick = btExportPuttySettingsClick
       end
@@ -472,9 +473,10 @@ object FormConnection: TFormConnection
   object tvConnection: TTreeView
     Left = 22
     Top = 36
-    Width = 244
+    Width = 228
     Height = 261
     Anchors = [akLeft, akTop, akRight, akBottom]
+    AutoExpand = True
     DragMode = dmAutomatic
     HotTrack = True
     Images = ImageList
@@ -490,15 +492,17 @@ object FormConnection: TFormConnection
     OnDragDrop = tvConnectionDragDrop
     OnDragOver = tvConnectionDragOver
     OnKeyDown = tvConnectionKeyDown
-    ExplicitWidth = 240
+    ExplicitWidth = 224
     ExplicitHeight = 260
   end
   object edSearch: TEdit
     Left = 22
     Top = 304
-    Width = 244
+    Width = 228
     Height = 21
-    Hint = #48148#47196' '#52286#44592' ('#50948'/'#50500#47000#53412#47484' '#51060#50857#54616#50668' '#51060#51204'/'#45796#51020' '#52286#44592#47484' '#54624' '#49688' '#51080#49845#45768#45796')'
+    Hint = 
+      'Direct search (you can use the up/down keys to find previous/nex' +
+      't)'
     Anchors = [akLeft, akRight, akBottom]
     ImeName = 'Microsoft Office IME 2007'
     ParentShowHint = False
@@ -507,31 +511,31 @@ object FormConnection: TFormConnection
     OnChange = edSearchChange
     OnKeyDown = edSearchKeyDown
     ExplicitTop = 303
-    ExplicitWidth = 240
+    ExplicitWidth = 224
   end
   object btClose: TButton
-    Left = 384
+    Left = 368
     Top = 336
     Width = 75
     Height = 25
     Anchors = [akRight, akBottom]
     Cancel = True
-    Caption = #45803#44592'(&C)'
+    Caption = '&Close'
     TabOrder = 3
     OnClick = btCloseClick
-    ExplicitLeft = 380
+    ExplicitLeft = 364
     ExplicitTop = 335
   end
   object btSave: TButton
-    Left = 300
+    Left = 284
     Top = 336
     Width = 78
     Height = 25
     Anchors = [akRight, akBottom]
-    Caption = #51200#51109'(&S)'
+    Caption = '&Save'
     TabOrder = 4
     OnClick = btSaveClick
-    ExplicitLeft = 296
+    ExplicitLeft = 280
     ExplicitTop = 335
   end
   object chbNewWindow: TCheckBox
@@ -540,7 +544,7 @@ object FormConnection: TFormConnection
     Width = 135
     Height = 17
     Anchors = [akLeft, akBottom]
-    Caption = #49352#52285#51004#47196' '#46916#50864#44592'(&E)'
+    Caption = 'Open in n&ew window'
     TabOrder = 5
     ExplicitTop = 339
   end
@@ -550,7 +554,7 @@ object FormConnection: TFormConnection
     Width = 92
     Height = 25
     Anchors = [akLeft, akBottom]
-    Caption = #50672#44208'(&O)'
+    Caption = 'C&onnect'
     Default = True
     Enabled = False
     TabOrder = 6
@@ -723,19 +727,19 @@ object FormConnection: TFormConnection
     Left = 92
     Top = 54
     object acNewSession: TAction
-      Caption = #49888#44508' '#49464#49496'(&N)'
+      Caption = '&New Session'
       OnExecute = acNewSessionExecute
     end
     object acNewFolder: TAction
-      Caption = #49352' '#54260#45908'(&F)'
+      Caption = 'New &Folder'
       OnExecute = acNewFolderExecute
     end
     object acCopy: TAction
-      Caption = #48373#49324'(&P)'
+      Caption = 'Co&py'
       OnExecute = acCopyExecute
     end
     object acDelete: TAction
-      Caption = #49325#51228'(&D)'
+      Caption = '&Delete'
       OnExecute = acDeleteExecute
     end
   end
@@ -746,7 +750,7 @@ object FormConnection: TFormConnection
   object dlgExportPuttySettings: TSaveDialog
     DefaultExt = 'reg'
     FileName = 'putty.reg'
-    Filter = #47112#51648#49828#53944#47532' '#54028#51068' (*.reg)|*.reg|'#47784#46304' '#54028#51068' (*.*)|*.*'
+    Filter = 'Registry files (*.reg)|*.reg|All files (*.*)|*.*'
     Left = 156
     Top = 54
   end

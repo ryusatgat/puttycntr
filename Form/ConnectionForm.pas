@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ComCtrls, ExtCtrls, ImgList, Buttons, Menus, ActnList,
-  RsCommon, System.Actions, System.ImageList;
+  RsCommon, System.Actions, System.ImageList, IdURI, IdGlobal;
 
 type
   TFormConnection = class(TForm)
@@ -129,6 +129,32 @@ type
 var
   FormConnection: TFormConnection;
 
+resourcestring
+{ I18N_FAILCOPY = '복사에 실패했습니다';
+  I18N_COPY = '사본 - ';
+  I18N_DELETE = ' 항목을 삭제합니다';
+  I18N_CONFIRM = '확인';
+  I18N_NEWFOLDER = '새 폴더';
+  I18N_NEWSESSION = '신규 세션';
+  I18N_COMPORT = '통신포트';
+  I18N_ADDRESS = '접속주소';
+  I18N_PORT = '포트';
+  I18N_TRANSPEED = '전송속도';
+  I18N_DUPLICATESESSION = 'PuTTY 설정에 동일한 세션명이 존재합니다';
+  I18N_FAILNEWSESSION = '세션 생성에 실패했습니다'; }
+  I18N_FAILCOPY = 'Failed to copy';
+  I18N_COPY = 'Copy - ';
+  I18N_DELETE = ' will be deleted';
+  I18N_CONFIRM = 'Confirm';
+  I18N_NEWFOLDER = 'New Folder';
+  I18N_NEWSESSION = 'New Session';
+  I18N_COMPORT = 'COM Port';
+  I18N_ADDRESS = 'Address';
+  I18N_PORT = 'Port';
+  I18N_TRANSPEED = 'Speed';
+  I18N_DUPLICATESESSION = 'Same session name exists in PuTTY settings';
+  I18N_FAILNEWSESSION = 'Session creation failed';
+
 implementation
 
 uses
@@ -140,13 +166,13 @@ procedure TFormConnection.acCopyExecute(Sender: TObject);
 var
   SessionName: String;
 begin
-  SessionName := '사본 - ' + tvConnection.Selected.Text;
+  SessionName := I18N_COPY + tvConnection.Selected.Text;
   if (tvConnection.Selected <> nil) and (tvConnection.Selected.Level <> 0) and
      (tvConnection.Selected.ImageIndex = 1) then
   begin
     if not CopyPuttyInfo(tvConnection.Selected.Text, SessionName, False) then
     begin
-      ShowMessage('복사에 실패했습니다');
+      ShowMessage(I18N_FAILCOPY);
       exit;
     end;
 
@@ -164,8 +190,8 @@ var
 begin
   if (tvConnection.Selected <> nil) and (tvConnection.Selected.Level <> 0) then
   begin
-    Msg := tvConnection.Selected.Text + ' 항목을 삭제합니다';
-    if Application.MessageBox(PChar(Msg), '확인',
+    Msg := tvConnection.Selected.Text + I18N_DELETE;
+    if Application.MessageBox(PChar(Msg), PChar(I18N_CONFIRM),
        MB_OKCANCEL) <> IDOK then
       exit;
 
@@ -176,7 +202,7 @@ begin
     try
       if reg.OpenKey(PUTTY_KEY_SESSIONS, False) then
       begin
-        reg.DeleteKey(URLEncode(tvConnection.Selected.Text));
+        reg.DeleteKey(TIdUri.PathEncode(tvConnection.Selected.Text, IndyTextEncoding(IdTextEncodingType.encOSDefault)));
         reg.CloseKey;
       end;
     finally
@@ -196,11 +222,11 @@ begin
     exit;
   EnableControls(False);
   if tvConnection.Selected.ImageIndex = 1 then
-    Node := tvConnection.Items.AddChild(tvConnection.Selected.Parent, '새 폴더')
+    Node := tvConnection.Items.AddChild(tvConnection.Selected.Parent, I18N_NEWFOLDER)
   else
-    Node := tvConnection.Items.AddChild(tvConnection.Selected, '새 폴더');
-  edName.Text := '새 폴더';
-  edName.Hint := '새 폴더';
+    Node := tvConnection.Items.AddChild(tvConnection.Selected, I18N_NEWFOLDER);
+  edName.Text := I18N_NEWFOLDER;
+  edName.Hint := I18N_NEWFOLDER;
   with Node do
   begin
     ImageIndex := 0;
@@ -213,15 +239,13 @@ begin
 end;
 
 procedure TFormConnection.acNewSessionExecute(Sender: TObject);
-const
-  NewName = '신규 세션';
 var
   i: Integer;
 begin
   i := 1;
-  while ConnExists(NewName + IntToStr(i)) do
+  while ConnExists(I18N_NEWSESSION + IntToStr(i)) do
     Inc(i);
-  NewPuttySession(NewName + IntToStr(i));
+  NewPuttySession(I18N_NEWSESSION + IntToStr(i));
   ApplyConnection;
 end;
 
@@ -369,7 +393,8 @@ begin
     begin
       if reg.OpenKey(PUTTY_KEY_SESSIONS + '\' + ValueNames[i], False) then
       begin
-        KeyName := URLDecode(ValueNames[i]);
+        KeyName := TIdUri.URLDecode(ValueNames[i], IndyTextEncoding(IdTextEncodingType.encOSDefault));
+
         if (UpperCase(KeyName) = 'DEFAULT%20SETTINGS') or (KeyName = '기본 설정') or
            (UpperCase(KeyName) = 'DEFAULT SETTINGS') then
         begin
@@ -450,9 +475,9 @@ procedure TFormConnection.cbProtocolChange(Sender: TObject);
 begin
   if cbProtocol.ItemIndex = 3 then
   begin
-    lbHost.Caption := '통신포트';
+    lbHost.Caption := I18N_COMPORT;
     edHost.Text := 'COM1';
-    lbPort.Caption := '전송속도';
+    lbPort.Caption := I18N_TRANSPEED;
     edPort.Text := '9600';
   end else
   begin
@@ -462,15 +487,15 @@ begin
       edPort.Text := '22'
     else
       edPort.Clear;
-    lbHost.Caption := '접속주소';
-    lbPort.Caption := '포트';
+    lbHost.Caption := I18N_ADDRESS;
+    lbPort.Caption := I18N_PORT;
   end;
 end;
 
 procedure TFormConnection.ClearConnections;
 begin
   tvConnection.Items.Clear;
-  with tvConnection.Items.AddChildFirst(nil, 'PuTTY 연결') do
+  with tvConnection.Items.AddChildFirst(nil, 'PuTTY') do
   begin
     SelectedIndex := 2;
     ImageIndex := 2;
@@ -589,6 +614,8 @@ begin
   ClearConnections;
   LoadConnections;
 
+  btLoadPutty.Click;
+
   if tvConnection.Items.GetFirstNode.getFirstChild <> nil then
     tvConnection.Items.GetFirstNode.getFirstChild.Selected := True
   else
@@ -607,6 +634,7 @@ begin
   tvConnection.MultiSelect := False;
 
   try
+    tvConnection.Items.GetFirstNode.Expand(True);
     Selected := tvConnection.Selected;
     TreeNode := tvConnection.Items.GetFirstNode.GetNext;
     if TreeNode <> nil then
@@ -683,9 +711,9 @@ begin
     Selected := True;
   end;
 
-{  cbProtocol.ItemIndex := 1;
+  cbProtocol.ItemIndex := 0;
   edPort.Text := '22';
-}
+
   edName.Text := SessionName;
   edName.Hint := SessionName;
   if edName.CanFocus then
@@ -729,20 +757,20 @@ begin
   try
     reg.RootKey := HKEY_CURRENT_USER;
 
-    if DupCheck and destReg.OpenKey(PUTTY_KEY_SESSIONS + '\' + URLEncode(Name), False) then
+    if DupCheck and destReg.OpenKey(PUTTY_KEY_SESSIONS + '\' + TIdUri.PathEncode(Name, IndyTextEncoding(IdTextEncodingType.encOSDefault)), False) then
     begin
       destReg.CloseKey;
-      ShowMessage('PuTTY 설정에 동일한 세션명이 존재합니다');
+      ShowMessage(I18N_DUPLICATESESSION);
       exit;
     end;
 
-    if not destReg.OpenKey(PUTTY_KEY_SESSIONS + '\' + URLEncode(Name), True) then
+    if not destReg.OpenKey(PUTTY_KEY_SESSIONS + '\' + TIdUri.PathEncode(Name, IndyTextEncoding(IdTextEncodingType.encOSDefault)), True) then
     begin
-      ShowMessage('세션 생성에 실패했습니다(대상)');
+      ShowMessage(I18N_FAILNEWSESSION);
       exit;
     end;
 
-    if reg.OpenKey(PUTTY_KEY_SESSIONS + '\' + URLEncode(OldName), False) then
+    if reg.OpenKey(PUTTY_KEY_SESSIONS + '\' + TIdUri.PathEncode(OldName, IndyTextEncoding(IdTextEncodingType.encOSDefault)), False) then
     begin
       reg.GetValueNames(keyNames);
 
@@ -768,7 +796,7 @@ begin
       begin
         if (Trim(OldName) <> '') and (reg.OpenKey(PUTTY_KEY_SESSIONS, False)) then
         begin
-          reg.DeleteKey(URLEncode(OldName));
+          reg.DeleteKey(TIdUri.PathEncode(OldName, IndyTextEncoding(IdTextEncodingType.encOSDefault)));
           reg.CloseKey;
         end;
       end;
@@ -810,7 +838,8 @@ begin
 
   try
     reg.RootKey := HKEY_CURRENT_USER;
-    if reg.OpenKey(PUTTY_KEY_SESSIONS + '\' + URLEncode(ConnInfo.Name), True) then
+
+    if reg.OpenKey(PUTTY_KEY_SESSIONS + '\' + TIdUri.PathEncode(ConnInfo.Name, IndyTextEncoding(IdTextEncodingType.encOSDefault)), True) then
     begin
       if reg.ReadString('Font') = '' then
       begin
@@ -824,7 +853,7 @@ begin
           reg.WriteInteger('ScrollbackLines', ScrollbackLines);
         if Protocol <> PROTOCOL_SERIAL then
         begin
-          reg.WriteString('HostName', URLEncode(Host));
+          reg.WriteString('HostName', TIdUri.PathEncode(Host, IndyTextEncoding(IdTextEncodingType.encOSDefault)));
           if Port <> '' then
           begin
             try
@@ -834,7 +863,7 @@ begin
           end;
         end else
         begin
-          reg.WriteString('SerialLine', URLEncode(Host));
+          reg.WriteString('SerialLine', TIdUri.PathEncode(Host, IndyTextEncoding(IdTextEncodingType.encOSDefault)));
           if Port <> '' then
             reg.WriteInteger('SerialSpeed', StrToInt(Port));
         end;

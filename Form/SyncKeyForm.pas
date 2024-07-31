@@ -16,6 +16,7 @@ type
     Label3: TLabel;
     edString: TEdit;
     ckTransparant: TCheckBox;
+    ckNewLine: TCheckBox;
     procedure sbPasteClick(Sender: TObject);
     procedure edCharKeyPress(Sender: TObject; var Key: Char);
     procedure edStringKeyPress(Sender: TObject; var Key: Char);
@@ -58,10 +59,16 @@ begin
 end;
 
 procedure TFormSyncKey.edStringKeyPress(Sender: TObject; var Key: Char);
+var
+  Eol: String;
 begin
+  Eol := '';
   if Key = Chr(VK_RETURN) then
   begin
-    Clipboard.SetTextBuf(PChar(edString.Text));
+    if ckNewLine.Checked then
+      Eol := #$a;
+
+    Clipboard.SetTextBuf(PChar(edString.Text + Eol));
     sbPaste.Click;
     edString.Clear;
   end;
@@ -69,7 +76,7 @@ end;
 
 procedure TFormSyncKey.sbPasteClick(Sender: TObject);
 const
-  IDM_PASTE = $0190;
+  IDM_PASTE = $01a0;
 var
   i: Integer;
 begin

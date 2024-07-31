@@ -2,7 +2,7 @@ object FormPuttyMain: TFormPuttyMain
   Left = 312
   Top = 165
   AlphaBlendValue = 180
-  Caption = 'PuTTY '#52968#53580#51060#45320
+  Caption = 'PuTTY Container'
   ClientHeight = 936
   ClientWidth = 1016
   Color = clBtnFace
@@ -147,28 +147,28 @@ object FormPuttyMain: TFormPuttyMain
       ParentColor = True
       TabOrder = 0
       object lbProtocol: TLabel
-        Left = 5
+        Left = 10
         Top = 5
-        Width = 44
+        Width = 39
         Height = 13
         Alignment = taRightJustify
-        Caption = #54532#47196#53664#53084
+        Caption = 'Protocol'
       end
       object lbHost: TLabel
-        Left = 123
+        Left = 128
         Top = 5
-        Width = 44
+        Width = 39
         Height = 13
         Alignment = taRightJustify
-        Caption = #51217#49549#51452#49548
+        Caption = 'Address'
       end
       object lbPort: TLabel
-        Left = 291
+        Left = 293
         Top = 5
-        Width = 22
+        Width = 20
         Height = 13
         Alignment = taRightJustify
-        Caption = #54252#53944
+        Caption = 'Port'
       end
       object cbProtocol: TComboBox
         Left = 55
@@ -225,7 +225,7 @@ object FormPuttyMain: TFormPuttyMain
         Top = 0
         Width = 62
         Height = 21
-        Caption = #51217#49549'(&C)'
+        Caption = '&Connect'
         Default = True
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
@@ -244,187 +244,192 @@ object FormPuttyMain: TFormPuttyMain
     Top = 56
     object acFileNewConnection: TAction
       Category = 'File'
-      Caption = 'PuTTY '#51217#49549' '#44288#47532'(&N)...'
-      Hint = #49352' '#51217#49549
+      Caption = 'PuTTY Co&nnection Manager...'
+      Hint = 'New Connection'
       ImageIndex = 1
       ShortCut = 24654
       OnExecute = acFileNewConnectionExecute
     end
     object acFileDupConnection: TAction
       Category = 'File'
-      Caption = #51473#48373' '#51217#49549' '#47564#46308#44592'(&D)'
+      Caption = '&Duplcate Session'
       OnExecute = acFileDupConnectionExecute
       OnUpdate = acFileDisconnectUpdate
     end
     object acFileExit: TAction
       Category = 'File'
-      Caption = #51333#47308'(&X)'
+      Caption = 'E&xit'
       OnExecute = acFileExitExecute
     end
     object acHelpAbout: TAction
       Category = 'Help'
-      Caption = #51221#48372'(&A)'
+      Caption = '&About'
       OnExecute = acHelpAboutExecute
     end
     object acFileDisconnect: TAction
       Category = 'File'
-      Caption = #45803#44592'(&C)'
+      Caption = '&Close'
       OnExecute = acFileDisconnectExecute
       OnUpdate = acFileDisconnectUpdate
     end
     object acViewHideToolbar: TAction
       Category = 'View'
       AutoCheck = True
-      Caption = #46020#44396' '#47784#51020' '#49704#44592#44592'(&T)'
+      Caption = 'Hide &Toolbar'
       OnExecute = acViewHideToolbarExecute
     end
     object acViewBottomTab: TAction
       Category = 'View'
-      Caption = #54616#45800' '#53485'(&B)'
+      Caption = '&Bottom Tabs'
       OnExecute = acViewBottomTabExecute
     end
     object acFileCloseAll: TAction
       Category = 'File'
-      Caption = #47784#46160' '#45803#44592'(&A)'
-      Hint = #47784#46160' '#45803#44592
+      Caption = 'Close &All'
+      Hint = 'Close All'
       OnExecute = acFileCloseAllExecute
       OnUpdate = acWindowEntireUpdate
     end
     object acViewSettings: TAction
       Category = 'View'
-      Caption = '&PuTTY '#49444#51221
-      Hint = 'PuTTY '#49444#51221' '#48320#44221
+      Caption = '&PuTTY Settings'
+      Hint = 'Change PuTTY Settings'
       ImageIndex = 2
       OnExecute = acViewSettingsExecute
       OnUpdate = acViewSettingsUpdate
     end
     object acViewFullScreen: TAction
       Category = 'View'
-      Caption = #51204#52404' '#54868#47732'(&F)'
+      Caption = '&Full Screen'
       ShortCut = 32781
       OnExecute = acViewFullScreenExecute
     end
     object acWindowCascade: TWindowCascade
       Category = 'Window'
-      Caption = #44228#45800#49885' '#48176#50676'(&C)'
+      Caption = '&Cascade arrangement'
       Enabled = False
-      Hint = #44228#45800#49885' '#48176#50676
+      Hint = '&Cascade arrangement'
       ImageIndex = 3
       OnExecute = acWindowCascadeExecute
     end
     object acWindowTileHorizontal: TWindowTileHorizontal
       Category = 'Window'
-      Caption = #44032#47196' '#48148#46161#54032#49885' '#48176#50676'(&H)'
+      Caption = '&Horizontal tiling'
       Enabled = False
-      Hint = #44032#47196' '#48148#46161#54032#49885' '#48176#50676
+      Hint = 'Horizontal tiling'
       ImageIndex = 4
       OnExecute = acWindowTileHorizontalExecute
     end
     object acWindowTileVertical: TWindowTileVertical
       Category = 'Window'
-      Caption = #49464#47196' '#48148#46161#54032#49885' '#48176#50676'(&T)'
+      Caption = 'Vertical &Tile'
       Enabled = False
-      Hint = #49464#47196' '#48148#46161#54032#49885' '#48176#50676
+      Hint = 'Vertical Tile'
       ImageIndex = 5
       OnExecute = acWindowTileVerticalExecute
     end
     object acWindowEntire: TAction
       Category = 'Window'
-      Caption = #51204#52404#52285'(&E)'
+      Caption = 'Maximiz&e'
       Enabled = False
-      Hint = #51204#52404#52285
+      Hint = 'Maximize'
       ImageIndex = 6
       OnExecute = acWindowEntireExecute
       OnUpdate = acWindowEntireUpdate
     end
     object acWindowSmart: TAction
       Category = 'Window'
-      Caption = #50508#50500#49436' '#48176#50676'(&S)'
+      Caption = 'Arrange automatically'
       Enabled = False
-      Hint = #50508#50500#49436' '#48176#50676
+      Hint = 'Arrange automatically'
       ImageIndex = 7
       OnExecute = acWindowSmartExecute
       OnUpdate = acWindowEntireUpdate
     end
     object acWindowMinimizeAll: TWindowMinimizeAll
       Category = 'Window'
-      Caption = #47784#46160' '#52572#49548#54868'(&M)'
+      Caption = '&Minimize All'
       Enabled = False
-      Hint = #47784#46160' '#52572#49548#54868
+      Hint = 'Minimize All'
     end
     object acWindowArrange: TWindowArrange
       Category = 'Window'
-      Caption = #50500#51060#53080' '#51221#47148'(&A)'
+      Caption = '&Arrange Icon'
       Enabled = False
-      Hint = #50500#51060#53080' '#51221#47148
+      Hint = 'Arrange Icon'
     end
     object acFileNewConsole: TAction
       Category = 'File'
-      Caption = #49352' '#47749#47161' '#54532#47212#54532#53944'(&S)'
-      Hint = #47749#47161' '#54532#47212#54532#53944
+      Caption = 'New Windows Col&sole'
+      Hint = 'Windows Console'
       ImageIndex = 8
       OnExecute = acFileNewConsoleExecute
     end
     object acFileNewCygwin: TAction
       Category = 'File'
-      Caption = 'C&ygwin '#53552#48120#45328
-      Hint = 'Cygwin '#53552#48120#45328
+      Caption = 'C&ygwin Terminal'
+      Hint = 'Cygwin Terminal'
       ImageIndex = 9
       OnExecute = acFileNewCygwinExecute
       OnUpdate = acFileNewCygwinUpdate
     end
     object acViewPuttyMenu: TAction
       Category = 'View'
-      Caption = 'P&uTTY '#47700#45684
-      Hint = 'PuTTY '#47700#45684
+      Caption = 'P&uTTY Menu'
+      Hint = 'PuTTY Menu'
       ShortCut = 16416
       OnExecute = acViewPuttyMenuExecute
       OnUpdate = acViewSettingsUpdate
     end
     object acViewAlphaBlending: TAction
       Category = 'View'
-      Caption = #48152#53804#47749'(&A)'
+      Caption = 'Tr&ansparent'
     end
     object acViewHideMenu: TAction
       Category = 'View'
       AutoCheck = True
-      Caption = #47700#45684' '#49704#44592#44592'(&M)'
+      Caption = 'Hide &Main Menu'
       OnExecute = acViewHideMenuExecute
     end
     object acFileNewMingw: TAction
       Category = 'File'
-      Caption = 'Min&GW '#53552#48120#45328
+      Caption = 'Min&GW Terminal'
       ImageIndex = 11
       OnExecute = acFileNewMingwExecute
     end
     object acSettingsMingwPath: TAction
       Category = 'Settings'
-      Caption = '&MinGW '#53552#48120#45328' '#49444#51221
+      Caption = '&MinGW Terminal Settings'
       OnExecute = acSettingsMingwPathExecute
     end
     object acSettingsCheckPassword: TAction
       Category = 'Settings'
-      Caption = #51088#46041#47196#44536#51064' '#47560#49828#53552#48708#48128#48264#54840' '#49324#50857'(&P)'
+      Caption = 'Use automatic login master &password'
       OnExecute = acSettingsCheckPasswordExecute
     end
     object acViewSyncKey: TAction
       Category = 'View'
-      Caption = 'PuTTY '#45796#51473#54868#47732' '#53412' '#46041#49884#51077#47141'(&R)'
-      Hint = 'PuTTY '#45796#51473#54868#47732' '#53412' '#46041#49884#51077#47141
+      Caption = 'PuTTY multi-screen key input'
+      Hint = 'PuTTY multi-screen key input simultaneously'
       ImageIndex = 12
       OnExecute = acViewSyncKeyExecute
     end
     object acViewHideTabSet: TAction
       Category = 'View'
       AutoCheck = True
-      Caption = #53485#54364#49884' '#48260#53948' '#49704#44592#44592'(&O)'
-      Hint = #53485#54364#49884' '#48260#53948' '#49704#44592#44592
+      Caption = '&Hide Tabs'
+      Hint = 'Hide Tabs'
       OnExecute = acViewHideTabSetExecute
     end
     object acPuTTYPath: TAction
       Category = 'Settings'
-      Caption = 'PuTTY '#50948#52824' '#49444#51221
+      Caption = 'PuTTY Path'
       OnExecute = acPuTTYPathExecute
+    end
+    object acDownloadPuTTY: TAction
+      Category = 'Help'
+      Caption = '&Download latest PuTTY'
+      OnExecute = acDownloadPuTTYExecute
     end
   end
   object MainMenu: TMainMenu
@@ -433,7 +438,7 @@ object FormPuttyMain: TFormPuttyMain
     Left = 48
     Top = 56
     object Newconnection1: TMenuItem
-      Caption = #54028#51068'(&F)'
+      Caption = '&File'
       object Newconnection2: TMenuItem
         Action = acFileNewConnection
       end
@@ -469,7 +474,7 @@ object FormPuttyMain: TFormPuttyMain
       end
     end
     object View1: TMenuItem
-      Caption = #48372#44592'(&V)'
+      Caption = '&View'
       object Bottomtab1: TMenuItem
         Action = acViewBottomTab
       end
@@ -490,12 +495,12 @@ object FormPuttyMain: TFormPuttyMain
       end
       object E1: TMenuItem
         Action = acViewFullScreen
-        Hint = #51204#52404#52285
+        Hint = 'Maximize'
       end
       object A4: TMenuItem
-        Caption = #48152#53804#47749'(&A)'
+        Caption = 'Tr&ansparent'
         object miAlphaBlending: TMenuItem
-          Caption = #45124#44592'(&0)'
+          Caption = '&Disbled'
           Checked = True
           GroupIndex = 1
           RadioItem = True
@@ -538,7 +543,7 @@ object FormPuttyMain: TFormPuttyMain
       end
     end
     object S3: TMenuItem
-      Caption = #49444#51221'(&S)'
+      Caption = '&Settings'
       object PuTTY1: TMenuItem
         Action = acViewSettings
       end
@@ -553,7 +558,7 @@ object FormPuttyMain: TFormPuttyMain
       end
     end
     object Window1: TMenuItem
-      Caption = #52285'(&W)'
+      Caption = '&View'
       object Cascade1: TMenuItem
         Action = acWindowCascade
       end
@@ -580,9 +585,12 @@ object FormPuttyMain: TFormPuttyMain
       end
     end
     object Help1: TMenuItem
-      Caption = #46020#50880#47568'(&H)'
+      Caption = '&Help'
       object About1: TMenuItem
         Action = acHelpAbout
+      end
+      object PuTTY5: TMenuItem
+        Action = acDownloadPuTTY
       end
     end
   end
@@ -592,7 +600,7 @@ object FormPuttyMain: TFormPuttyMain
     Left = 208
     Top = 56
     object mnPopupNewConnection: TMenuItem
-      Caption = 'PuTTY '#51217#49549'(&E)'
+      Caption = 'PuTTY Conn&ection'
     end
     object Connection1: TMenuItem
       Action = acFileNewConnection
@@ -640,7 +648,7 @@ object FormPuttyMain: TFormPuttyMain
       Action = acViewFullScreen
     end
     object N14: TMenuItem
-      Caption = #52285'(&W)'
+      Caption = '&View'
       object C1: TMenuItem
         Action = acWindowCascade
       end
