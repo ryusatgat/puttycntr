@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Projects\PuttyCntr\Form\ChildForm.dfm" source-language="ko-KR" target-language="ko-KR" datatype="delphiform" tool="ETM v10.0" ts="D:\Projects\PuttyCntr\Form\ChildForm.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">45493.1137268519</prop>
+        <prop prop-type="OrigDateTime">45483.5749074074</prop>
+        <prop prop-type="XlatDateTime">45483.5749074074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">29</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FormChild.Left" resname="O:FormChild.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Top" resname="O:FormChild.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.HorzScrollBar.Visible" resname="O:FormChild.HorzScrollBar.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.VertScrollBar.Visible" resname="O:FormChild.VertScrollBar.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Caption" resname="O:FormChild.Caption">
+        <source>'PuTTY'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.ClientHeight" resname="O:FormChild.ClientHeight">
+        <source>735</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.ClientWidth" resname="O:FormChild.ClientWidth">
+        <source>1012</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Color" resname="O:FormChild.Color">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Font.Charset" resname="O:FormChild.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Font.Color" resname="O:FormChild.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Font.Height" resname="O:FormChild.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Font.Name" resname="O:FormChild.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Font.Style" resname="O:FormChild.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.FormStyle" resname="O:FormChild.FormStyle">
+        <source>fsMDIChild</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Icon.Data" resname="O:FormChild.Icon.Data">
+        <source>000001000600101010000100040028010000660000002020100001000400E80200008E010000303010000100040068060000760400001010020001000100B0000000DE0A00002020020001000100300100008E0B0000303002000100010030030000BE0C00002800000010000000200000000100040000000000800000000000000000000000000000000000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00000000000000000007888888800000000FFFFF88880000000088888888000000007887778000000000F4B4C78000000000FC4B488000000000FC44BB0088880000F8BBBBB0888880000000BBBBB088800000000BB8877800000000084B4C78000000000FC4B478000000000FCC4478000000000FFFFF78000000000000000000807F0000003F0000001F0000801F0000803F0000803F0000800300008001000080000000C0000000FC010000FC010000FC010000FC010000FC010000FE0300002800000020000000400000000100040000000000000200000000000000000000000000000000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF0000000000000000000000000000000000078888888888888888000000000000000F7777777780000878800000000000000F7777777777777778880000000000000FFFFFFFFFFFFFFFF78800000000000000700000000000007F88000000000000000078888888888807F80000000000000000FFFFFFFFFF7880000000000000000000F4CCCCCCCC7880000000000000000000F4CC00CCCC7880000000000000000000F4CC0B0CCC7880000000000000000000F4CCC0B00C7880000000000000000000F4CCCC0BB07880000000000000000000F4CCCCC0BB0880000000000000000000F44444440BB000000000000000000000FFFFFFFFF0BBB088888888888000000007777700000BBB077800008788000000000000BBBBBBBBB0077777778880000000000000BBBBBBBBB0FFFFFF78800000000000000BBB000000000007F88000000000000000BBB088888888807F800000000000000000BB0FFFFFF7880000000000000000000F0BB0CCCCC7880000000000000000000F40BB0CCCC7880000000000000000000F4C00B0CCC7880000000000000000000F4CCC0B0CC7880000000000000000000F4CCCC00CC7880000000000000000000F4CCCCCCCC7880000000000000000000F4444444447880000000000000000000FFFFFFFFFF7880000000000000000000077777777777800000000000000000000000000000000000080003FFF00001FFF00000FFF000007FF000007FF800007FFC00007FFE0000FFFE0003FFFE0003FFFE0003FFFE0003FFFE0003FFFE0003FFFE0000007E0000003F0000001F8000000FFC00000FFF00000FFF80000FFFC0001FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFE0007FFFF000F2800000030000000600000000100040000000000800400000000000000000000000000000000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000000000000000000000000000000000000000000000000778888888888888888888888800000000000000000000000778888888888888888888888880000000000000000000000FF7777777777778000000078888000000000000000000000FFFFFFFFFFFFFFFFFFFFFFF7888800000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF78880000000000000000000007700000000000000000007FF88800000000000000000000007078888888888888888807FF88000000000000000000000000F77777777777777788807FF8000000000000000000000000F7FFFFFFFFFFFFFF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84CCCC00CCCCCCF88880000000000000000000000000000F84CCCC0B0CCCCCF88880000000000000000000000000000F84CCCCC0B0CCCCF88880000000000000000000000000000F84CCCCCC0B00CCF88880000000000000000000000000000F8444444440BB04F88880000000000000000000000000000F88888888880BB0788880000000000000000000000000000FFFFFFFFFFFF0BB00888000000000000000000000000000007777777777770BBB08800000000000000000000000000000077777777777700BB08000000000000000000000000000000000000000000000BB00000000000000000000000000000000000000000000000BBB00000000000000000000000000000000000000BBBBBBBBBBB088888888888888880000000000000000000000BBBBBBBBBB088888888888888880000000000000000000000BBBBBBBBBB007780000000788880000000000000000000000BBBBBBBBBBB0FFFFFFFFFF7888800000000000000000000F0BBB0000000FFFFFFFFFFFF7888000000000000000000000700BB00000000000000007FF8880000000000000000000000700BB00888888888888807FF88000000000000000000000000F0BBB0777777777788807FF8000000000000000000000000F700BB0FFFFFFFFF88880000000000000000000000000000F84C0BB0CCCCCCCF88880000000000000000000000000000F84CC0BB0CCCCCCF88880000000000000000000000000000F84CCC00B0CCCCCF88880000000000000000000000000000F84CCCCC0B0CCCCF88880000000000000000000000000000F84CCCCCC0B0CCCF88880000000000000000000000000000F84CCCCCCC00CCCF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84CCCCCCCCCCCCF88880000000000000000000000000000F84444444444444F88880000000000000000000000000000F88888888888888788880000000000000000000000000000FFFFFFFFFFFFFFFF7888000000000000000000000000000007777777777777777788000000000000000000000000000000777777777777777778000000000000000000000000000000000000000000000000000008000003FFFFF00000000001FFFFF00000000000FFFFF000000000007FFFF000000000003FFFF000000000003FFFF000080000003FFFF0000C0000003FFFF0000E0000003FFFF0000F0000007FFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F800003FFFFF0000FC00003FFFFF0000FE00003FFFFF0000FFFF0000000F0000FFFE000000070000FFFF000000030000FFFFC00000010000FFFFC00000000000FFFFC00000000000FFFFE00000000000FFFFF00000000000FFFFF80000000000FFFFFC0000010000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFE00000F0000FFFFFF00000F0000FFFFFF80001F00002800000010000000200000000100010000000000400000000000000000000000000000000000000000000000FFFFFF00000000007F8000007FC0000000400000278000002980000024800000233C00002F9E000003E20000019C0000004C0000012C0000010C000001FC000000000000807F0000003F0000001F0000801F0000803F0000803F0000800300008001000080000000C0000000FC010000FC010000FC010000FC010000FC010000FE0300002800000020000000400000000100010000000000800000000000000000000000000000000000000000000000FFFFFF00000000007FFFC0007FE1E0007FFFF0007FFFF0002000F0000FFF70000FFF800008038000080380000843800008238000081B8000080D8000080600000FFBBFF807C1DC3C003FE7FE000FFBFE0007001E0003BFEE0000DFF0000160700001307000010870000104700001007000010070000100700001FFF00000FFF00000000080003FFF00001FFF00000FFF000007FF000007FF800007FFC00007FFE0000FFFE0003FFFE0003FFFE0003FFFE0003FFFE0003FFFE0003FFFE0000007E0000003F0000001F8000000FFC00000FFF00000FFF80000FFFC0001FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFC0007FFFE0007FFFF000F2800000030000000600000000100010000000000800100000000000000000000000000000000000000000000FFFFFF0000000000000000007FFFFFC0000000007FFFFFE0000000007FFF01F0000000007FFFFFF8000000007FFFFFF800000000300001F80000000017FFFEF80000000007FFFF780000000007FFFF800000000006000F800000000006000F800000000006000F800000000006000F800000000006000F800000000006040F800000000006020F800000000006010F80000000000600CF800000000007FF6F800000000007FFB3800000000003FFDD800000000001FFE680000000000000030000000000000001C0000000000000FFEFFFF0000000003FF7FFF8000000001FF9C07C000000000FFEFFFE000000001701FFFE000000000980007E0000000004CFFFBE000000000177FFDE00000000019BFFE000000000018C03E000000000018603E000000000018103E000000000018083E000000000018043E000000000018003E000000000018003E000000000018003E000000000018003E00000000001FFFFE00000000001FFFFE00000000000FFFFE000000000007FFFE0000000000000000000008000003FFFFF00000000001FFFFF00000000000FFFFF000000000007FFFF000000000003FFFF000000000003FFFF000080000003FFFF0000C0000003FFFF0000E0000003FFFF0000F0000007FFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F000003FFFFF0000F800003FFFFF0000FC00003FFFFF0000FE00003FFFFF0000FFFF0000000F0000FFFE000000070000FFFF000000030000FFFFC00000010000FFFFC00000000000FFFFC00000000000FFFFE00000000000FFFFF00000000000FFFFF80000000000FFFFFC0000010000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFC00000F0000FFFFFE00000F0000FFFFFF00000F0000FFFFFF80001F0000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.Visible" resname="O:FormChild.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnActivate" resname="O:FormChild.OnActivate">
+        <source>FormActivate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnClose" resname="O:FormChild.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnCreate" resname="O:FormChild.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnDestroy" resname="O:FormChild.OnDestroy">
+        <source>FormDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnKeyDown" resname="O:FormChild.OnKeyDown">
+        <source>FormKeyDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnKeyPress" resname="O:FormChild.OnKeyPress">
+        <source>FormKeyPress</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnResize" resname="O:FormChild.OnResize">
+        <source>FormResize</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.OnShow" resname="O:FormChild.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.TextHeight" resname="O:FormChild.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TFormChild</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.O:TimerLogin.Interval" resname="O:FormChild.O:TimerLogin.Interval">
+        <source>2000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.O:TimerLogin.OnTimer" resname="O:FormChild.O:TimerLogin.OnTimer">
+        <source>TimerLoginTimer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.O:TimerLogin.Left" resname="O:FormChild.O:TimerLogin.Left">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormChild.O:TimerLogin.Top" resname="O:FormChild.O:TimerLogin.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">45493.1137379051</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

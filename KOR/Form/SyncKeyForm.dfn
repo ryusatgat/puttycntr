@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\Projects\PuttyCntr\Form\SyncKeyForm.dfm" source-language="ko-KR" target-language="ko-KR" datatype="delphiform" tool="ETM v10.0" ts="D:\Projects\PuttyCntr\Form\SyncKeyForm.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">45504.5312962963</prop>
+        <prop prop-type="OrigDateTime">45504.5234490741</prop>
+        <prop prop-type="XlatDateTime">45492.9044675926</prop>
+        <prop prop-type="Translated">10</prop>
+        <prop prop-type="UnTranslated">110</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FormSyncKey.Left" resname="O:FormSyncKey.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">0</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Top" resname="O:FormSyncKey.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">1</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.AlphaBlendValue" resname="O:FormSyncKey.AlphaBlendValue">
+        <source>127</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">2</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.BorderIcons" resname="O:FormSyncKey.BorderIcons">
+        <source>[biSystemMenu]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">3</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Caption" resname="O:FormSyncKey.Caption">
+        <source>'PuTTY multi-screen key input simultaneously'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">4</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+        <target>'PuTTY 다중화면 동시키 입력'</target>
+        <alt-trans>
+          <source>'‘PuTTY multi-screen key input simultaneously’'</source>
+          <target>'PuTTY 동시키 입력'</target>
+          <prop-group name="ITEFieldProp">
+            <prop prop-type="Modified">45504.1497825926</prop>
+          </prop-group>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.ClientHeight" resname="O:FormSyncKey.ClientHeight">
+        <source>219</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">5</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.ClientWidth" resname="O:FormSyncKey.ClientWidth">
+        <source>332</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">6</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Color" resname="O:FormSyncKey.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">7</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Font.Charset" resname="O:FormSyncKey.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">8</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Font.Color" resname="O:FormSyncKey.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">9</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Font.Height" resname="O:FormSyncKey.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">10</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Font.Name" resname="O:FormSyncKey.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">11</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.Font.Style" resname="O:FormSyncKey.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">12</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.DesignSize[0]" resname="O:FormSyncKey.DesignSize[0]">
+        <source>332</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">13</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+          <prop prop-type="Open">(</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.DesignSize[1]" resname="O:FormSyncKey.DesignSize[1]">
+        <source>219</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">14</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+          <prop prop-type="Close">)</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.TextHeight" resname="O:FormSyncKey.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">15</prop>
+          <prop prop-type="Type">TFormSyncKey</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Left" resname="O:FormSyncKey.O:sbPaste.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">16</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Top" resname="O:FormSyncKey.O:sbPaste.Top">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">17</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Width" resname="O:FormSyncKey.O:sbPaste.Width">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">18</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Height" resname="O:FormSyncKey.O:sbPaste.Height">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">19</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Hint" resname="O:FormSyncKey.O:sbPaste.Hint">
+        <source>'Press to paste the contents of the clipboard to multiple screens'</source>
+        <target>'다중 화면으로 클립보드 내용을 붙여넣기 합니다'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">20</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Anchors" resname="O:FormSyncKey.O:sbPaste.Anchors">
+        <source>[akRight, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">21</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.Glyph.Data" resname="O:FormSyncKey.O:sbPaste.Glyph.Data">
+        <source>36030000424D360300000000000036000000280000001000000010000000010018000000000000030000120B0000120B00000000000000000000FF00FFFF00FF00669A00669A00669AB88989B88989B88989B88989B88989B88989B88989B88989B88989B88989FF00FFFF00FF00669A3CBEE336BAE130B6DFB88989FEFEFDFEFEFEFEFEFDFEFEFDFEFEFDFEFEFDFEFEFDFEFEFDB88989FF00FFFF00FF00669A45C4E63FC0E438BCE2B88989FEFBF8B27E73B27E73B27E73B27E73B27E73B27E73FEFBF8B88989FF00FFFF00FF00669A4DC9E947C4E741C0E5B88989FEF8F3FFF4ECFEF6EEFEF8F1FFF9F4FEFBF6FEFCF9FEF8F3B88989FF00FFFF00FF00669A56CDED50C9EA4AC5E8B88989FEF6EDB27E73B27E73B27E73B27E73B27E73B27E73FEF6EDB88989FF00FFFF00FF00669A5ED2F058CFED52CBEBB88989FFF0E3FFF0E3FFF0E3FFF1E5FFF2E6FFF3E9FFF5EBFFF0E3B88989FF00FFFF00FF00669A66D7F360D4F15AD0EEB88989FFEDDDB27E73B27E73B27E73B27E73CDA99ECCAA9ED7C5BAB88989FF00FFFF00FF00669A6DDBF667D8F362D4F2B88989FFEBD8FFEAD7FFEBD8FFEBD8FFEBD8C4AAA7C5ABA8CDB5B0CD9999FF00FFFF00FF00669A74DFF86FDCF66ADAF4B88989FFE8D2FFE8D2FFE8D2FFE8D2FBE4CFC6ACA9FEFEFECD9999FF00FFFF00FFFF00FF00669A7AE3FA76E1F870DDF6B88989FFE6CFFFE6CFFFE6CFFFE6CFE9CFBFD2BAB4CD999900669AFF00FFFF00FFFF00FF00669A7FE6FC7BE4FA77E1F9B88989B88989B88989B88989B88989B88989CD999952CAEB00669AFF00FFFF00FFFF00FF00669A83E8FE80E6FC7DE5FC7DE5FC78E2FA72DFF86BDAF564D5F25DD0EF56CDED52CAEB00669AFF00FFFF00FFFF00FF00669A84E9FE84E9FE73737373737373737373737373737373737373737360D4F05ACFEE00669AFF00FFFF00FFFF00FF00669A84E9FE84E9FE737373CFC1BCCFC1BBCFC1BBCFC1BBCEBEB773737368D8F462D4F100669AFF00FFFF00FFFF00FFFF00FF00669A00669A737373E2D8D3FAF9F8F9F8F7F9F8F7D0C5BF73737300669A00669AFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF737373737373737373737373737373FF00FFFF00FFFF00FFFF00FFFF00FFFF00FF</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">22</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+          <prop prop-type="Open">{</prop>
+          <prop prop-type="Close">}</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.ParentShowHint" resname="O:FormSyncKey.O:sbPaste.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">23</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.ShowHint" resname="O:FormSyncKey.O:sbPaste.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">24</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.OnClick" resname="O:FormSyncKey.O:sbPaste.OnClick">
+        <source>sbPasteClick</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">25</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:sbPaste.ExplicitLeft" resname="O:FormSyncKey.O:sbPaste.ExplicitLeft">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">26</prop>
+          <prop prop-type="Type">TSpeedButton</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label1.Left" resname="O:FormSyncKey.O:Label1.Left">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">27</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label1.Top" resname="O:FormSyncKey.O:Label1.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">28</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label1.Width" resname="O:FormSyncKey.O:Label1.Width">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">29</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label1.Height" resname="O:FormSyncKey.O:Label1.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">30</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label1.Caption" resname="O:FormSyncKey.O:Label1.Caption">
+        <source>'&amp;List of screens to input simultaneously'</source>
+        <target>'화면 목록(&amp;L)'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">31</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Left" resname="O:FormSyncKey.O:Label2.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">32</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Top" resname="O:FormSyncKey.O:Label2.Top">
+        <source>159</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">33</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Width" resname="O:FormSyncKey.O:Label2.Width">
+        <source>88</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">34</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Height" resname="O:FormSyncKey.O:Label2.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">35</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Alignment" resname="O:FormSyncKey.O:Label2.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.4934208333</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">36</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Anchors" resname="O:FormSyncKey.O:Label2.Anchors">
+        <source>[akLeft, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">37</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.Caption" resname="O:FormSyncKey.O:Label2.Caption">
+        <source>'&amp;Character to Send'</source>
+        <target>'보낼 문자(&amp;C)'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">38</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label2.FocusControl" resname="O:FormSyncKey.O:Label2.FocusControl">
+        <source>edChar</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">39</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Left" resname="O:FormSyncKey.O:Label3.Left">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">40</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Top" resname="O:FormSyncKey.O:Label3.Top">
+        <source>186</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">41</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Width" resname="O:FormSyncKey.O:Label3.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">42</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Height" resname="O:FormSyncKey.O:Label3.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">43</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Alignment" resname="O:FormSyncKey.O:Label3.Alignment">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.4934208333</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">44</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Anchors" resname="O:FormSyncKey.O:Label3.Anchors">
+        <source>[akLeft, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">45</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.Caption" resname="O:FormSyncKey.O:Label3.Caption">
+        <source>'&amp;String to Send'</source>
+        <target>'보낼 문자열(&amp;S)'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">46</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:Label3.FocusControl" resname="O:FormSyncKey.O:Label3.FocusControl">
+        <source>edString</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">47</prop>
+          <prop prop-type="Type">TLabel</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Left" resname="O:FormSyncKey.O:cklList.Left">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">48</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Top" resname="O:FormSyncKey.O:cklList.Top">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">49</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Width" resname="O:FormSyncKey.O:cklList.Width">
+        <source>292</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">50</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Height" resname="O:FormSyncKey.O:cklList.Height">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">51</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Anchors" resname="O:FormSyncKey.O:cklList.Anchors">
+        <source>[akLeft, akTop, akRight, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">52</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.ImeName" resname="O:FormSyncKey.O:cklList.ImeName">
+        <source>'Microsoft Office IME 2007'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">53</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.ItemHeight" resname="O:FormSyncKey.O:cklList.ItemHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">54</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Items.Strings[0]" resname="O:FormSyncKey.O:cklList.Items.Strings[0]">
+        <source>'a'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">55</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+          <prop prop-type="Open">(</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Items.Strings[1]" resname="O:FormSyncKey.O:cklList.Items.Strings[1]">
+        <source>'b'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">56</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Items.Strings[2]" resname="O:FormSyncKey.O:cklList.Items.Strings[2]">
+        <source>'c'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">57</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.Items.Strings[3]" resname="O:FormSyncKey.O:cklList.Items.Strings[3]">
+        <source>'d'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">58</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+          <prop prop-type="Close">)</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.TabOrder" resname="O:FormSyncKey.O:cklList.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">59</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.ExplicitWidth" resname="O:FormSyncKey.O:cklList.ExplicitWidth">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">60</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:cklList.ExplicitHeight" resname="O:FormSyncKey.O:cklList.ExplicitHeight">
+        <source>109</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">61</prop>
+          <prop prop-type="Type">TCheckListBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Left" resname="O:FormSyncKey.O:edChar.Left">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">62</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Top" resname="O:FormSyncKey.O:edChar.Top">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">63</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Width" resname="O:FormSyncKey.O:edChar.Width">
+        <source>178</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">64</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Height" resname="O:FormSyncKey.O:edChar.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">65</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Hint" resname="O:FormSyncKey.O:edChar.Hint">
+        <source>'Input occurs as soon as you press a key on the keyboard. Assembled characters such as Uncode characters are ignored.'</source>
+        <target>'키보드에 입력한 내용을 바로 전송합니다. 한글과 같은 유니코드는 전송되지 않습니다.'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">66</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Anchors" resname="O:FormSyncKey.O:edChar.Anchors">
+        <source>[akLeft, akRight, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">67</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Font.Charset" resname="O:FormSyncKey.O:edChar.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">68</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Font.Color" resname="O:FormSyncKey.O:edChar.Font.Color">
+        <source>clMedGray</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">69</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Font.Height" resname="O:FormSyncKey.O:edChar.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">70</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Font.Name" resname="O:FormSyncKey.O:edChar.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">71</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Font.Style" resname="O:FormSyncKey.O:edChar.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">72</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ImeName" resname="O:FormSyncKey.O:edChar.ImeName">
+        <source>'Microsoft Office IME 2007'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">73</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ParentFont" resname="O:FormSyncKey.O:edChar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">74</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ParentShowHint" resname="O:FormSyncKey.O:edChar.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">75</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ReadOnly" resname="O:FormSyncKey.O:edChar.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">76</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ShowHint" resname="O:FormSyncKey.O:edChar.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">77</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.TabOrder" resname="O:FormSyncKey.O:edChar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">78</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.Text" resname="O:FormSyncKey.O:edChar.Text">
+        <source>'Input keys here'</source>
+        <target>'여기에서 입력하세요'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">79</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.OnKeyPress" resname="O:FormSyncKey.O:edChar.OnKeyPress">
+        <source>edCharKeyPress</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">80</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ExplicitTop" resname="O:FormSyncKey.O:edChar.ExplicitTop">
+        <source>155</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">81</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edChar.ExplicitWidth" resname="O:FormSyncKey.O:edChar.ExplicitWidth">
+        <source>174</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">82</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Left" resname="O:FormSyncKey.O:edString.Left">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">83</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Top" resname="O:FormSyncKey.O:edString.Top">
+        <source>183</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">84</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Width" resname="O:FormSyncKey.O:edString.Width">
+        <source>178</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">85</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Height" resname="O:FormSyncKey.O:edString.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">86</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Hint" resname="O:FormSyncKey.O:edString.Hint">
+        <source>'Copy and paste the transmission string to the clipboard. Unicode characters can also be entered.'</source>
+        <target>'복사하고 붙여넣으세요. 유니코드도 전송할 수 있습니다.'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">87</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Anchors" resname="O:FormSyncKey.O:edString.Anchors">
+        <source>[akLeft, akRight, akBottom]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">88</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Font.Charset" resname="O:FormSyncKey.O:edString.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">89</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Font.Color" resname="O:FormSyncKey.O:edString.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">90</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Font.Height" resname="O:FormSyncKey.O:edString.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">91</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Font.Name" resname="O:FormSyncKey.O:edString.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">92</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.Font.Style" resname="O:FormSyncKey.O:edString.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">93</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ImeName" resname="O:FormSyncKey.O:edString.ImeName">
+        <source>'Microsoft Office IME 2007'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">94</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.MaxLength" resname="O:FormSyncKey.O:edString.MaxLength">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">95</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ParentFont" resname="O:FormSyncKey.O:edString.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">96</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ParentShowHint" resname="O:FormSyncKey.O:edString.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">97</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ShowHint" resname="O:FormSyncKey.O:edString.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">98</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.TabOrder" resname="O:FormSyncKey.O:edString.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">99</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.OnKeyPress" resname="O:FormSyncKey.O:edString.OnKeyPress">
+        <source>edStringKeyPress</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">100</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ExplicitTop" resname="O:FormSyncKey.O:edString.ExplicitTop">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5247825926</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">101</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:edString.ExplicitWidth" resname="O:FormSyncKey.O:edString.ExplicitWidth">
+        <source>174</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5247825926</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">102</prop>
+          <prop prop-type="Type">TEdit</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.Left" resname="O:FormSyncKey.O:ckTransparant.Left">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">103</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.Top" resname="O:FormSyncKey.O:ckTransparant.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">104</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.Width" resname="O:FormSyncKey.O:ckTransparant.Width">
+        <source>74</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">105</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.Height" resname="O:FormSyncKey.O:ckTransparant.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">106</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.Caption" resname="O:FormSyncKey.O:ckTransparant.Caption">
+        <source>'&amp;Transparent'</source>
+        <target>'투명(&amp;T)'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">107</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.TabOrder" resname="O:FormSyncKey.O:ckTransparant.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">108</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckTransparant.OnClick" resname="O:FormSyncKey.O:ckTransparant.OnClick">
+        <source>ckTransparantClick</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45493.1137417014</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">109</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Left" resname="O:FormSyncKey.O:ckNewLine.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">110</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Top" resname="O:FormSyncKey.O:ckNewLine.Top">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">111</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Width" resname="O:FormSyncKey.O:ckNewLine.Width">
+        <source>74</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">112</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Height" resname="O:FormSyncKey.O:ckNewLine.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">113</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Hint" resname="O:FormSyncKey.O:ckNewLine.Hint">
+        <source>'Add line feed at end of the string'</source>
+        <target>'전송 시에 개행문자를 추가합니다'</target>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5216959259</prop>
+          <prop prop-type="Status">1</prop>
+          <prop prop-type="Order">114</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.Caption" resname="O:FormSyncKey.O:ckNewLine.Caption">
+        <source>'&amp;LF'</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">115</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.ParentShowHint" resname="O:FormSyncKey.O:ckNewLine.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5216959259</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">116</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.ShowHint" resname="O:FormSyncKey.O:ckNewLine.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5216959259</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">117</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.TabOrder" resname="O:FormSyncKey.O:ckNewLine.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">118</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="O:FormSyncKey.O:ckNewLine.OnClick" resname="O:FormSyncKey.O:ckNewLine.OnClick">
+        <source>ckTransparantClick</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">45504.5200215046</prop>
+          <prop prop-type="Status">0</prop>
+          <prop prop-type="Order">119</prop>
+          <prop prop-type="Type">TCheckBox</prop>
+          <prop prop-type="Localize">1</prop>
+        </prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

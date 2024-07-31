@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Form"/>
+    <File Path="Form\AboutForm.dfm"/>
+    <File Path="Form\ChildForm.dfm"/>
+    <File Path="Form\ConnectionForm.dfm"/>
+    <File Path="Form\MainForm.dfm"/>
+    <File Path="Form\MingwForm.dfm"/>
+    <File Path="Form\PasswordForm.dfm"/>
+    <File Path="Form\SyncKeyForm.dfm"/>
+    <File Path="PuttyCtnr_DRC.rc"/>
+  </ProjectSortOrder>
+</BorlandProject>
